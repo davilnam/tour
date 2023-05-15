@@ -50,22 +50,22 @@ const Footer = () => {
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
                   <Link to="#">
-                    <i class="ri-youtube-line"></i>
+                    <i className="ri-youtube-line"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-github-fill"></i>
+                    <i className="ri-github-fill"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-facebook-circle-line"></i>
+                    <i className="ri-facebook-circle-line"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-instagram-line"></i>
+                    <i className="ri-instagram-line"></i>
                   </Link>
                 </span>
               </div>

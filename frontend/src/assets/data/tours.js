@@ -11,6 +11,7 @@ const tours = [
     id: "01",
     title: "Westminister Bridge",
     city: "London",
+    address: 'Somewhere',
     distance: 300,
     price: 99,
     maxGroupSize: 10,
@@ -19,6 +20,10 @@ const tours = [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "davil",
+        rating: 4.9,
       },
     ],
     avgRating: 4.5,
@@ -32,6 +37,7 @@ const tours = [
     distance: 400,
     price: 99,
     maxGroupSize: 8,
+    address: 'Somewhere',
     desc: "this is the description",
     reviews: [
       {
@@ -50,6 +56,7 @@ const tours = [
     distance: 500,
     price: 99,
     maxGroupSize: 8,
+    address: 'Somewhere',
     desc: "this is the description",
     reviews: [
       {
@@ -68,6 +75,7 @@ const tours = [
     distance: 500,
     price: 99,
     maxGroupSize: 8,
+    address: 'Somewhere',
     desc: "this is the description",
     reviews: [],
     avgRating: 4.5,
@@ -80,6 +88,7 @@ const tours = [
     city: "Indonesia",
     distance: 500,
     price: 99,
+    address: 'Somewhere',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [],
@@ -92,6 +101,7 @@ const tours = [
     title: "Cherry Blossoms Spring",
     city: "Japan",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -99,6 +109,10 @@ const tours = [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "kevin",
+        rating: 4.8,
       },
     ],
     avgRating: 4.5,
@@ -109,6 +123,7 @@ const tours = [
     id: "07",
     title: "Holmen Lofoten",
     city: "France",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -128,6 +143,7 @@ const tours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    address: 'Somewhere',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
