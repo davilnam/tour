@@ -2,8 +2,8 @@ import Tour from "../models/Tour.js";
 
 // create new tour
 export const createTour = async (req, res) => {
-  try {
-    const savedTour = await Tour.create(req.body);
+  try {    
+    const savedTour = await Tour.create(req.body);    
     return res.status(200).json({
       success: true,
       message: "Successfully created",
